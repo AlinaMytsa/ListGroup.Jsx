@@ -1,0 +1,13 @@
+.list-group{
+  border: 1px grey solid;
+  border-radius: 3px;
+
+}
+
+.list-group-item p{
+  display: block;
+}
+
+.list-group-item:not(:last-child){
+  border-bottom: 1px grey solid;
+}
